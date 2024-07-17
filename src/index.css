@@ -42,11 +42,12 @@ body {
   width: 100px;
   border-radius: 50%;
   margin-top: 40px;
-  transition: all 1s ease;
+  transition: all 2s ease;
 }
 
 .selected {
   border: 2px solid black;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 1);
 }
 
 /* colors */
@@ -73,4 +74,7 @@ body {
 }
 .white {
   background-color: #ffffff;
+}
+.cyan {
+  background-color: cyan;
 }
